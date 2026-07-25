@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Track the Git configuration itself
+!.gitignore
+
+# Track these
+!projects/
+!projects/**
+!camera_capture.py
