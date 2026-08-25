@@ -8,7 +8,7 @@ void main() => runApp(const SensorApp());
 class SensorApp extends StatelessWidget {
   const SensorApp({super.key});
   @override
-  Widge build(BuildContext context) => MaterialApp(
+  Widget build(BuildContext context) => MaterialApp(
     debugShowCheckedModeBanner: false,
     theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.green),
     home: const SensorScreen(),
@@ -144,10 +144,19 @@ class _SensorScreenState extends State<SensorScreen> {
           const Text("📷 Live Camera",style:TextStyle(fontSize:22,fontWeight:FontWeight.bold)),
           const SizedBox(height:8),
           ClipRRect(
-            borderRadius:BorderRadius.circular(16),
-            child:Image.network(imageUrl,errorBuilder:(_,__,___)=>const SizedBox(height:250,child:Center(child:Text("Waiting for camera...")))),
-        ])
-      )
+            borderRadius: BorderRadius.circular(16),
+            child: Image.network(
+              imageUrl,
+              errorBuilder: (_, __, ___) => const SizedBox(
+                height: 250,
+                child: Center(
+                  child: Text("Waiting for camera...")
+                ),
+              ),
+            ),
+          ),
+        ]),
+      ),
     );
   }
 }

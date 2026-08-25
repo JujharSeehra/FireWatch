@@ -1,10 +1,20 @@
-# Ignore everything
-*
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
 
-# Track the Git configuration itself
-!.gitignore
+# Flutter
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
 
-# Track these
-!projects/
-!projects/**
-!camera_capture.py
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
