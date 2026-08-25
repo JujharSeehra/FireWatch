@@ -1,20 +1,25 @@
 # Python
-venv/
-.venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
 
 # Flutter
-.dart_tool/
-build/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-
-# IDE
-.idea/
-.vscode/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/build/
+**/.idea/
 
 # OS
 .DS_Store
+Thumbs.db
 
+# Logs
+*.log
+
+# Local files
+*.local
+.env
