@@ -8,5 +8,6 @@ With the large amount of environmental disasters occurring more frequently, more
 That is why I created FireWatch, to help combat these issues and improve safety in a hotter world. 
 
 
-![IMG_2915](https://github.com/user-attachments/assets/7134e27f-8be2-480a-97c1-f3ba7242c8e0)
+<img width="1363" height="1018" alt="Screenshot 2026-09-04 at 4 10 44 PM" src="https://github.com/user-attachments/assets/a7ca6d7f-0911-4f88-b64e-bfaca854dca2" />
+
 
