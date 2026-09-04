@@ -1,0 +1,7 @@
+Component,Quantity,Model/Specification,Purpose
+Raspberry Pi,1,Raspberry Pi 5,Main computer and processing
+Arduino,1,Arduino Uno,Sensor interface and serial communication
+Temperature/Humidity Sensor,1,DHT11,Environmental temperature and humidity sensing
+Raspberry Pi Camera,1,Camera Module 3,Visual fire/smoke detection
+USB Cable,1,USB cable,Power and serial communication between Raspberry Pi and Arduino
+Jumper Wires,3,3-wire connection,DHT11 to Arduino connection
