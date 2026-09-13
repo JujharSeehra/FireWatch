@@ -1,7 +1,7 @@
-Component,Quantity,Model/Specification,Purpose
-Raspberry Pi,1,Raspberry Pi 5,Main computer and processing
-Arduino,1,Arduino Uno,Sensor interface and serial communication
-Temperature/Humidity Sensor,1,DHT11,Environmental temperature and humidity sensing
-Raspberry Pi Camera,1,Camera Module 3,Visual fire/smoke detection
-USB Cable,1,USB cable,Power and serial communication between Raspberry Pi and Arduino
-Jumper Wires,3,Male to Female Connection,DHT11 to Arduino connection
+Component,Quantity,Model/Specification,Purpose, Link
+Raspberry Pi,1,Raspberry Pi 5,Main computer and processing, https://www.canakit.com/raspberry-pi-5-8gb.html?srsltid=AfmBOopURfGvRhW0a50vHQGInKebfGS_9JxhFLeZCrKuwVPQG04nXVS7
+Arduino,1,Arduino Uno,Sensor interface and serial communication, https://store-usa.arduino.cc/products/arduino-uno-rev3?srsltid=AfmBOoqTMQWlP3rD-QZ_yQYcotSctSqKwn1wNIsolLnYNyV26krZCVHo
+Temperature/Humidity Sensor,1,DHT11,Environmental temperature and humidity sensing, https://leeselectronic.com/en/product/7374-7374HUMIDITYANDTEMPERATURESENSOR.html
+Raspberry Pi Camera,1,Camera Module 3,Visual fire/smoke detection, https://www.canakit.com/raspberry-pi-camera-module-3.html?cid=cad&src=raspberrypi
+USB Cable,1,USB cable,Power and serial communication between Raspberry Pi and Arduino, https://www.amazon.ca/naughtystarts-Cable-Arduino-ATMEGA328P-MEGA2560/dp/B0BRDB1M1Y
+Jumper Wires,3,Male to Female Connection,DHT11 to Arduino connection, https://www.amazon.ca/PCS-20cm-Wires-Arduino-Breadboard/dp/B0GG5558RG?th=1
